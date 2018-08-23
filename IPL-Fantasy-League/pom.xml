@@ -22,6 +22,7 @@
   		</configuration>
 		</plugin>
 	</plugins>
+		<finalName>IPL-Fantasy-League</finalName>
 		</build>
 	<dependencies>
 		<dependency>
@@ -114,7 +115,5 @@
             		</properties>
         	</profile>
     </profiles>	
-	<build>
-		<finalName>IPL-Fantasy-League</finalName>
-	</build>
+	
 </project>
