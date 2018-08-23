@@ -21,6 +21,7 @@
         </profile>
     </profiles>
 	<build>
+		<finalName>IPL-Fantasy-League</finalName>
 	 <plugins>	
 	  <plugin>
   <groupId>org.apache.maven.plugins</groupId>
@@ -119,8 +120,6 @@
 
 
 	</dependencies>
-	<build>
-		<finalName>IPL-Fantasy-League</finalName>
-	</build>
+
 </project>
 
