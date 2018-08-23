@@ -11,6 +11,14 @@
 			<maven.compiler.source>1.8</maven.compiler.source>
 			<maven.compiler.target>1.8</maven.compiler.target>
 		</properties>
+	<profiles>
+    <profile>
+        <id>sonar</id>
+        <properties>
+        <sonar.host.url>http://13.251.223.160:9000</sonar.host.url>
+            </properties>
+        </profile>
+    </profiles>
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
