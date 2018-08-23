@@ -19,6 +19,7 @@
             </properties>
         </profile>
     </profiles>
+	<plugins>
 	<plugin>
   <groupId>org.apache.maven.plugins</groupId>
   <artifactId>maven-war-plugin</artifactId>
@@ -27,6 +28,7 @@
     <failOnMissingWebXml>false</failOnMissingWebXml>
   </configuration>
 </plugin>
+		<plugins>
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
